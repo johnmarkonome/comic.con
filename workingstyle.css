@@ -1,0 +1,182 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto',sans-serif;
+}
+body{
+  background-image: url(https://wallpaperaccess.com/full/247072.jpg);
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+
+header{
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  border-bottom: 1px solid red;
+}
+
+
+.logo{
+  cursor: pointer;
+}
+
+
+.navlinks{
+  list-style: none;
+}
+
+
+.navlinks li{
+  display: inline-block;
+  padding: 0px 20px;
+
+}
+
+
+.navlinks li a{
+  font-size: 20px;
+}
+
+
+.navlinks li a:hover{
+  color: red;
+  border-block: 1px solid darkred;
+}
+
+
+button{
+  padding: 9px 25px;
+  background-color: white;
+  border: 2px solid red;
+  color: black;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease os;
+}
+
+
+button:hover{
+  background-color: lightgrey;
+}
+
+.row{
+display: flex;
+height: 88%;
+align-items: center;
+}
+
+.col{
+  flex-basis: 50%;
+}
+
+h1{
+  color: rgb(255, 255, 255);
+  font-size: 80px;
+}
+
+.nvbar a:hover{
+     background-color: red ;
+}
+a{
+  color: aliceblue;
+  font-size: 11px;
+  line-height: 15px;
+  text-decoration: none;
+}
+p{
+  color: aliceblue;
+  font-size: 11px;
+  line-height: 15px;
+}
+#exp{
+color: black;
+font-size: 20px;
+}
+.button2{
+  width: 180;
+  color: #000;
+  font-size: 12px;
+  padding: 12px 0;
+  background: rgb(255, 255, 255);
+  border: o;
+  margin-left: 30px;
+  border-radius: 20px;
+  outline: none;
+  margin-top: 30px;
+}
+.button2:hover{
+  background: rgb(235, 235, 227);
+}
+
+
+.card1{
+  width: 200px;
+  height: 120px;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 15px 25px;
+  box-sizing: border-box;
+  color: orange;
+  margin: 10px 15px;
+  background-image: url(https://comicvine.gamespot.com/a/uploads/scale_small/11142/111427220/8339053-johnjla.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+.card2{
+  width: 200px;
+  height: 120px;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 15px 25px;
+  box-sizing: border-box;
+  color: red;
+  margin: 10px 15px;
+  background-image: url(https://parade.com/.image/c_limit%2Ccs_srgb%2Cq_auto:good%2Cw_700/MTkwNTgxMjkxNjk3NDQ4ODI4/marveldisney.webp);
+  background-position: center;
+  background-size: cover;
+}
+.card3{
+  color: aliceblue;
+  width: 200px;
+  height: 120px;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 15px 25px;
+  box-sizing: border-box;
+  color: black;
+  margin: 10px 15px;
+  background-image: url(https://static1.srcdn.com/wordpress/wp-content/uploads/2021/06/DC-Comics-Trinity-Batman-Superman-Wonder-Woman.jpg?q=50&fit=contain&w=1140&h=&dpr=1.5);
+  background-position: center;
+  background-size: cover;
+}
+.card4{
+  width: 200px;
+  height: 120px;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 15px 25px;
+  box-sizing: border-box;
+  color: black;
+  margin: 10px 15px;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWaoBQWSwbTHKGmCw4JynZ6pDFN8BwBpQU0w&usqp=CAU);
+  background-position: center;
+  background-size: cover;
+ 
+}
+#currentpage{
+
+color: red;
+border-block: 1px solid darkred;
+
+}
+
+i{
+
+padding-right: 5px;
+
+}
